@@ -1,0 +1,73 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #505050;
+	background-color: #ffffff;
+}
+.os-font {
+	font-family: 'Dancing Script', cursive;
+}
+.dark-color {
+	color: #272727 !important;
+}
+.banner-text .banner-text-inner {
+	padding-bottom: 60px;
+}
+.masonry-filter {
+	font-family: 'Raleway', sans-serif;
+	font-size: 11px;
+}
+.owl-theme .owl-controls .owl-page:before {
+	background-color: #27252C;
+    border: 1px solid #27252C;
+}
+.contact-item i,
+.contact-item .contact-info {
+	float: left;
+}
+.contact-item i {
+	font-size: 30px;
+}
+.contact-item .contact-info {
+	margin-left: 15px;
+}
+.contact-item .contact-info h4 {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.contact-item .contact-info p {
+    font-size: 14px;
+    line-height: 25px;
+}
+.section-instagram a {
+	color: #272727;
+}
+.section-instagram a:hover {
+    color: #557799;
+}
+.side-menu {
+	display: none;
+}
+@media (max-width: 768px) {
+	.side-menu {
+		display: block;
+	}
+	.contact-item {
+		text-align: center;
+	}
+	.contact-item i, .contact-item .contact-info {
+		 float: none; 
+		 display: block;
+		 margin-bottom: 10px;
+	}
+}
+@media (max-width: 480px) {
+	.contact-item {
+		clear: left;
+		float: left;
+    	margin-bottom: 15px;
+		width: 100%;
+	}
+	.contact-item .contact-info {
+		margin-left: 0;
+	}
+}

@@ -1,0 +1,189 @@
+.color {
+    color: #c19556 !important;
+}
+a:hover, a:active {
+	color: #c19556;
+}
+.icon-title {
+	color:#c19556;
+}
+blockquote {
+    border-left: 4px solid #c19556;
+}
+.btn.btn-color {
+    background-color: #c19556;
+    border-color: #c19556;
+}
+.btn.btn-dark:hover {
+    background-color: #c19556;
+    border-color: #c19556;
+}
+.highlighted:focus {
+    background-color:rgba(73, 182, 178 ,0.05);
+	border-color:rgba(73, 182, 178 ,0.65);
+	color:#c19556;
+}
+#searchform input[type=text]:focus {
+	border-color: #c19556;
+}
+#searchform .form-wrapper i {
+    background-color: #c19556;
+}
+.navigation-single a:hover {
+	color: #c19556;
+}
+.paginate .paginate_links .page-numbers.current {
+    background: #c19556;
+	border-color: #c19556;
+}
+.single-page-title .heading-line {
+	border-bottom: 4px solid #c19556;
+}
+.header .sidebar-search:hover, 
+.header .sidebar-search:focus {
+    color: #c19556;
+}
+.main-menu .main-nav > li > a:hover, 
+.main-menu .main-nav > li > a:focus,
+.main-menu .main-nav > li.active > a,
+.main-menu .main-nav > li > a.current,
+.header.scrolling-menu .main-menu .main-nav > li > a:hover, 
+.header.scrolling-menu .main-menu .main-nav > li > a:focus,
+.header.scrolling-menu .main-menu .main-nav > li.active > a,
+.header.scrolling-menu .main-menu .main-nav > li > a.current {
+    color: #c19556;
+}
+.header .sidebar-trigger:hover .line,
+.prk_shifted .header .sidebar-trigger .line {
+	background-color: #c19556;
+}
+.main-menu .main-nav > li > a:before {
+	background-color: #c19556;
+}
+.main-menu .main-nav li .sub-menu li a:hover {
+	color: #c19556;
+}
+.hidden-bar .highlighted:focus {
+    background-color:rgba(73, 182, 178 ,0.05);
+	border-color:rgba(73, 182, 178 ,0.65);
+	color:#c19556;
+}
+.testimonials-slider .owl-page.active:before {
+    background-color: #c19556;
+    border-color: #c19556;
+}
+.masonry-filter li:hover a,
+.masonry-filter li a.active {
+	background-color: #c19556;
+}
+.section-portfolio-nav .nav-left a:hover,
+.section-portfolio-nav .nav-right a:hover {
+    color: #c19556;
+}
+.section-portfolio-nav .nav-thumb a:hover .grid {
+	background: #c19556;
+    color: #c19556;
+}
+.portfolio-detail .single-portfolio-meta a:hover {
+    color: #c19556;
+}
+.portfolio-grid .grid-content-wrapper .grid-content .liner.color {
+	border-bottom-color: #c19556;
+}
+.footer-top a:hover {
+    color: #c19556;
+}
+.footer-top .highlighted:focus {
+    background-color:rgba(73, 182, 178 ,0.05);
+	border-color:rgba(73, 182, 178 ,0.65);
+	color:#c19556;
+}
+.recent-post h6 a:hover,
+.recent-post h6 a:hover i{
+    color: #c19556;
+}
+.section-fullscreen .single-blog-info .single-blog-meta a:hover {
+	color: #c19556;
+}
+.section-fullscreen .single-blog-info .btn-border:hover {
+	background-color: #c19556;
+	border-color: #c19556;
+}
+.section-normal .single-blog-read a:hover {
+	color: #c19556;
+}
+.section-normal .single-blog-info .single-blog-meta a:hover {
+	color: #c19556;
+}
+.single-blog-content .single-blog-tags .tag-link a:hover {
+    background-color: #c19556;
+    border-color: #c19556;
+}
+.team .team-member .member-name a:hover {
+	color: #c19556;
+}
+.section-team-detail .position {
+	background-color: #c19556;
+}
+.widget_recent_posts ul li a {
+    color: #c19556;
+}
+.widget .tagcloud a:hover {
+	background-color: #c19556;
+    border-color: #c19556;
+}
+span.onsale {
+	background: #c19556;
+}
+ul.products li.product .product-thumb .product-add-cart:hover {
+	color: #c19556;
+}
+ul.products li.product .product-info .product-cate a:hover {
+	color: #c19556;
+}
+.star-rating span {
+    color: #c19556;
+}
+.single-product .summary .cart button:hover {
+	background-color: #c19556;
+}
+.single-product .summary .product-meta > span a {
+	color: #c19556;
+}
+table.shop-table td.actions .button:hover {
+    background: #c19556;
+}
+.cart-collaterals .button:hover {
+    background: #c19556;
+}
+.go-to-top:hover {
+	background-color: #c19556;
+}
+.overlay-menu .line {
+	background-color: #c19556;
+}
+.overlay-menu .line:after, 
+.header.header-transparent .overlay-menu:hover .line,
+.header.header-transparent.scrolling-menu .overlay-menu .line { 
+	background-color: #c19556;
+}
+.hidden-menu .hidden-menu-inner ul > li a:hover {
+	color: #c19556;
+}
+.hidden-menu .hidden-menu-footer a:hover {
+	color: #c19556;
+}
+.nav-tabs>li.active > a, 
+.nav-tabs > li.active > a:focus, 
+.nav-tabs > li.active > a:hover {
+	color: #c19556;
+}
+blockquote.style-3 {
+	background-color: #c19556;
+}
+.block-progressbar .progressbar {
+    background-color: #c19556;
+}
+.price-table .price-header {
+	background-color: #c19556;
+}

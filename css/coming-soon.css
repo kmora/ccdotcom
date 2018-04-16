@@ -1,0 +1,19 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+	color: #111111;
+	background-color: #ececeb;
+	font-size: 15px;
+}
+.os-font {
+	font-family: Open Sans;
+}
+#main {
+	margin-top: 0;
+}
+.banner-text .banner-text-inner {
+	vertical-align: middle;
+	padding-bottom: 0;
+}
+#fullscreen-banner {
+	background-position: center center;
+}

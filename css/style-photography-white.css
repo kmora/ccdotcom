@@ -1,0 +1,165 @@
+body {
+    font-family: Open Sans;
+	color: #494949;
+	background-color: #ffffff;
+	font-size: 14px;
+}
+.dark-color {
+	color: #303030 !important;
+}
+.bg-dark {
+    background-color: #ececec;
+}
+.os-font {
+	font-family: Open Sans;
+}
+.icon-title {
+    font-size: 28px;
+}
+.header.header-transparent.scrolling-menu .header-main {
+    background-color: rgba(10, 10, 10 ,1);
+	border-bottom: 1px solid rgba(26, 26, 26 ,1);
+}
+.seperate-line {
+	border-bottom: 1px solid #212121;
+}
+.team .team-member .member-info,
+.team .team-member:hover .member-links .link > a {
+	color: #0a0a0a;
+}
+.team .team-member .member-overlay {
+	background-color: #fff;
+}
+.team .team-member .member-position {
+	color: #797979;
+}
+.testimonials-slider .tm-content .tm-title {
+	color: #747474;
+}
+.testimonials-slider .owl-page.active:before {
+    background-color: #747474;
+    border-color: #747474;
+}
+.service-item i {
+	font-size: 67px;
+}
+.masonry-filter {
+	font-size: 11px;
+}
+.masonry-filter li a {
+	color: #797979;
+	background-color: #F0F0F0;
+}
+.masonry-filter li:hover a, 
+.masonry-filter li a.active {
+	color: #303030 !important;
+	background: #F0F0F0 !important;
+}
+.portfolio-grid .portfolio-masonry-item {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 30px;
+}
+.portfolio-grid .grid-content-wrapper .grid-content {
+	color: #0a0a0a;
+}
+.portfolio-grid .grid-content-wrapper .grid-content .liner {
+	border-bottom-color: #111111;
+}
+.mfp-bg {
+	background-color: #0A0A0A;
+}
+button.mfp-close {
+	display: block;
+}
+.footer-top,
+.footer-bottom {
+	background: none;
+	color: #c3c3c3;
+}
+.contact-item i,
+.contact-item .contact-info {
+	float: left;
+}
+.contact-item i {
+	font-size: 30px;
+}
+.contact-item .contact-info {
+	margin-left: 15px;
+}
+.contact-item .contact-info h4 {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.contact-item .contact-info p {
+    font-size: 12px;
+    line-height: 25px;
+}
+.section-instagram a {
+	color: #fff;
+}
+.section-instagram a:hover {
+    color: #f1c40f;
+}
+.go-to-top {
+	background-color: #fff;
+	color: #0a0a0a;
+}
+.go-to-top:hover {
+	color: #0a0a0a;
+}
+.section-instagram a {
+	color: #303030;
+}
+.section-instagram a:hover {
+    color: #747474;
+}
+.footer-wrap {
+	background-color: #111111;
+    color: #ffffff;
+}
+.main-menu .main-nav > li > a:hover, 
+.main-menu .main-nav > li > a:focus, 
+.main-menu .main-nav > li.active > a, 
+.main-menu .main-nav > li > a.current {
+    color: #fff;
+}
+.main-menu .main-nav > li > a:before {
+	background-color: #fff;
+}
+.header.scrolling-menu .main-menu .main-nav > li > a {
+    color: #999999;
+}
+.header.scrolling-menu .main-menu .main-nav > li > a:hover, 
+.header.scrolling-menu .main-menu .main-nav > li > a:focus, 
+.header.scrolling-menu .main-menu .main-nav > li.active > a, 
+.header.scrolling-menu .main-menu .main-nav > li > a.current {
+    color: #fff;
+}
+.side-menu {
+	display: none;
+}
+@media (max-width: 768px) {
+	.side-menu {
+		display: block;
+	}
+	.contact-item {
+		text-align: center;
+	}
+	.contact-item i, .contact-item .contact-info {
+		 float: none; 
+		 display: block;
+		 margin-bottom: 10px;
+	}
+}
+@media (max-width: 480px) {
+	.contact-item {
+		clear: left;
+		float: left;
+    	margin-bottom: 15px;
+		width: 100%;
+	}
+	.contact-item .contact-info {
+		margin-left: 0;
+	}
+}
