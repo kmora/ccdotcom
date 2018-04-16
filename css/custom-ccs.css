@@ -3,13 +3,14 @@
 }
 
 @media(max-width: 425px) {
+  /*
   .header .container {
     padding: 0px;
   }
+  */
 }
 
 .header #logo {
-  background-color: #fff;
   padding: 0 10px;
   margin-right: 10px;
 }
@@ -36,6 +37,12 @@
   .header.header-transparent + #main {
     margin-top: 66px;
   }
+}
+
+#main .section:first-of-type .jumbotron {
+  padding-top: 126px;
+  background-color: #0089C4;
+  color: #fff;
 }
 
 /*
