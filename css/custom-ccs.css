@@ -141,6 +141,10 @@ p,
   font-size: 18px;
 }
 
+.portfolio-grid .grid-content-wrapper .grid-content .grid-desc {
+  line-height: 1.2em;
+}
+
 footer .btn.contact-us {
   text-decoration: none;
   color: #fff;
