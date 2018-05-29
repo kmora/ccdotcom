@@ -107,7 +107,7 @@
 		Map();
 		
 		$(window).scroll(function() {
-			if ($(this).scrollTop() > 150) {
+			if ($(this).scrollTop() > 80) {
 				$('.header').addClass('scrolling-menu');
 			} else {
 				$('.header').removeClass('scrolling-menu');
@@ -136,9 +136,11 @@
 			MagnificPopup();
 			
 			/* pretty photo */
+			/*
 			$("a[data-rel^='prettyPhoto']").prettyPhoto();
 			$("a.prettyphoto").prettyPhoto();
 			$("a[data-rel^='prettyPhoto']").prettyPhoto({ hook: "data-rel", social_tools: !1, theme: "pp_default", horizontal_padding: 20, opacity: .8, deeplinking: !1 });
+			*/
 			
 			introHeight();
 			

@@ -11,17 +11,13 @@
 		</title>
 
 		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all"/>
-		<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="css/font-awesome-all.css" type="text/css" media="all" />
 		<link rel="stylesheet" href="css/font-materialdesign.css" type="text/css" media="all" />
 		<link rel='stylesheet' href='css/animate.min.css' type='text/css' media='all' />
-		<link rel="stylesheet" href="css/settings.css" type="text/css" media="all" />
-		<link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="all" />
-		<link rel="stylesheet" href="css/owl.theme.css" type="text/css" media="all" />
-		<link rel="stylesheet" href="css/owl.transitions.css" type="text/css" media="all" />
 		<link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
 		<link rel="stylesheet" href="css/custom.css" type="text/css" media="all"/>
 		<link rel="stylesheet" href="css/custom-ccs.css" type="text/css" media="all"/>
-		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i%7CPT+Sans:400,400i,700,700i" />
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,600,600i,700,700i,800,800i%7CPT+Sans:400,400i,700,700i" />
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -31,121 +27,28 @@
 	</head>
 	<body>
 		<div class="noo-spinner">
-			<div class="noo-spinner-inner">
-				<!--
-				<img src="images/preloader/default.svg" width="150" alt="" />
-				-->
-			</div>
+			<div class="noo-spinner-inner"></div>
 		</div>
 		<div id="body_hider" class="hider_flag"></div>
 		<div id="body_hider_full" class="hider_flag"></div>
-		<div class="hidden-bar">
-			<div class="hidden-bar-inner">
-				<div id="hidden-bar-logo">
-					<a href="index.html"><img src="images/logo_hidden_bar.png" alt="" /></a>
-				</div>
-				<div id="hidden-bar-mobile-logo">
-					<a href="index.html"><img src="images/logo_alt.png" alt="" /></a>
-				</div>
-				<div class="widget white mb-5 text-center">
-					<p>12777 W. Jefferson Blvd</p>
-					<p>Los Angeles, CA 90066</p>
-					<p>(310) 482-6500</p>
-				</div>
-				<div class="mobile-menu uppercase"></div>
-			</div>
-			<div class="hidden-bar-footer text-center">
-				<div class="widget mb-0 show-mobile sidebar-social-widget">
-					<div class="widget-inner">
-						<div class="widget-title fw-600 white uppercase os-font">
-							Get Connected
-						</div>
-						<div class="fount-social minimal">
-							<div class="fount-social-inner">
-								<div class="social-img-wrp fount-socialink prk_bordered fount-facebook">
-									<a href="#" target="_blank">
-										<span class="fount-facebook fa fa-facebook"></span>
-										<span class="bg-shifter"><i class="fa fa-facebook"></i></span>
-									</a>
-								</div>
-								<div class="social-img-wrp fount-socialink prk_bordered fount-twitter">
-									<a href="#" target="_blank">
-										<span class="fount-twitter fa fa-twitter"></span>
-										<span class="bg-shifter"><i class="fa fa-twitter"></i></span>
-									</a>
-								</div>
-								<div class="social-img-wrp fount-socialink prk_bordered fount-linkedin">
-									<a href="#" target="_blank">
-										<span class="fount-linkedin fa fa-linkedin"></span>
-										<span class="bg-shifter"><i class="fa fa-linkedin"></i></span>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="widget show-mobile">
-					<div class="widget-inner">
-						<span class="fz-11">2018 - All rights reserved</span>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="site">
-			<header class="header header-transparent">
-				<div class="header-inner">
-					<div class="header-main">
-						<div class="container">
-							<div class="btn-navbar hidden" data-target=".main-nav"></div>
-							<div id="logo">
-								<div id="logo-before">
-									<a href="index.html"><img src="images/logo.png" alt="" /></a>
-								</div>
-								<div id="logo-after">
-									<a href="index.html"><img src="images/logo_alt.png" alt="" /></a>
-								</div>
-							</div>
-							<div class="side-menu">
-								<div class="sidebar-trigger hidden-bar-toggle">
-									<div class="line line-1"></div>
-									<div class="line line-2"></div>
-									<div class="line line-3"></div>
-								</div>
-							</div>
-							<div class="main-menu">
-								<div class="main-menu-inner">
-									<ul class="main-nav os-font">
-										<li class="active">
-											<a href="index.html">Home</a>
-										</li>
-										<li>
-											<a href="our-values.html">Who We Are</a>
-										</li>
-										<li>
-											<a href="insights.html">Insights</a>
-										</li>
-										<li>
-											<a href="careers.html">Careers</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</header>
+		<div class="hidden-bar html-loader" file="hidden_bar.html"></div>
+		<div class="site loader" page="home">
+			<header class="header header-transparent html-loader" file="header.html"></header>
 			<div id="main">
 				<div class="section">
 					<div class="container-fluid">
 						<div class="row">
 							<div class="video-hero-container">
 								<div class="video-hero-overlay"></div>
-								<div class="video-hero-caption">
-									<h1>Deliver More Than a Purchase</h1>
-									<p>Inspiring purchase passion between shoppers and brands</p>
+								<div class="video-hero-caption white col-xs-12 col-sm-10">
+									<h1>Deliver More Than a <span
+										class="txt-rotate"
+										data-period="2000"
+										data-rotate='[ "Purchase", "Experience", "Transaction", "Tactic" ]'></span></h1>
+									<p>Inspiring Purchase Passion<sup class="tm">TM</sup> Between Shoppers and Brands</p>
 								</div>
 								<video autoplay muted loop class="video-hero" id="videoHero">
-									<source type="video/mp4" src="images/hero-home.mp4">
+									<source type="video/mp4" src="images/home/hero-home.mp4">
 								</video>
 							</div>
 						</div>
@@ -156,49 +59,70 @@
 						<div class="row">
 							<div id="what-we-do" class="col-md-10 col-md-offset-1">
 								<div data-wow-delay="0.3s" class="text-center mb-5 wow fadeInUp">
-									<h2 class="fw-bolder os-font dark-color section-title mb-1">WHAT WE DO</h2>
+									<h2 class="fw-bolder os-font dark-color section-title mb-1">HOW WE SHOP</h2>
 									<p>
+										Shoppers do not think about channels or silos – it’s all retail. And they demand seamless, personal, convenient, always-on and everywhere shopping – integrated experiences that inform and inspire, leading to meaningful connections with brands.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+								<div data-wow-delay="0.3s" class="mb-5 wow fadeIn text-center">
+									<img class="img-responsive img-inline-block" src="images/home/how-we-shop.jpg" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section bg-blue border-bottom pt-7 pb-4">
+					<div class="container">
+						<div class="row">
+							<div id="what-we-do" class="col-md-10 col-md-offset-1">
+								<div data-wow-delay="0.3s" class="text-center mb-5 wow fadeInUp">
+									<h2 class="fw-bolder os-font white section-title mb-1">WHAT WE DO</h2>
+									<p class="white">
 										We inspire shoppers through experts who power millions of exceptional retail experiences every day.
 									</p>
-									<p>
-										For 20+ years, we've delivered more than a purchase by connecting shoppers with brands by:
+									<p class="white">
+										For 20+ years, we’ve delivered more than a purchase by:
 									</p>
 								</div>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-sm-4">
-								<div data-wow-delay="0.3s" class="service-item mb-5 text-center wow fadeIn">
+								<div data-wow-delay="0.3s" class="service-item white mb-5 text-center wow fadeIn">
 									<div class="service-icon">
-										<i class="mdi-account-star color"></i>
+										<i class="fa fa-hands-helping"></i>
 									</div>
 									<div class="service-content text-center">
 										<p>
-											Developing smart people who care about connecting shoppers with brands.
+											Developing smart people who care about connecting shoppers with brands
 										</p> 
 									</div>
 								</div>
 							</div>
 							<div class="col-sm-4">
-								<div data-wow-delay="0.4s" class="service-item mb-5 text-center wow fadeIn">
+								<div data-wow-delay="0.4s" class="service-item white mb-5 text-center wow fadeIn">
 									<div class="service-icon">
-										<i class="mdi-store color"></i>
+										<i class="mdi mdi-cart-plus"></i>
 									</div>
 									<div class="service-content text-center">
 										<p>
-											Taking care of the store environment.
+											Taking care of a brand’s digital & physical retail assets
 										</p> 
 									</div>
 								</div>
 							</div>
 							<div class="col-sm-4">
-								<div data-wow-delay="0.5s" class="service-item mb-5 text-center wow fadeIn">
+								<div data-wow-delay="0.5s" class="service-item white mb-5 text-center wow fadeIn">
 									<div class="service-icon">
-										<i class="mdi-cart color"></i>
+										<i class="mdi mdi-shopping"></i>
 									</div>
 									<div class="service-content text-center">
 										<p>
-											Providing valuable insights from the point of purchase.
+											Providing valuable insights across the entire shopper journey
 										</p> 
 									</div>
 								</div>
@@ -206,192 +130,286 @@
 						</div>
 					</div>
 				</div>
-				<div class="section bg-blue pt-7 pb-4">
+				<div class="section pt-7 pb-4">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-10 col-md-offset-1">
 								<div data-wow-delay="0.3s" class="text-center mb-5 wow fadeInUp">
-									<h2 class="fw-bolder os-font white section-title mb-1">STRATEGIC RETAIL MARKETING PARTNER FOR LEADING GLOBAL BRANDS</h2>
+									<h2 class="fw-bolder os-font dark-color section-title mb-1">STRATEGIC RETAIL MARKETING PARTNER FOR LEADING GLOBAL BRANDS</h2>
 								</div>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-sm-12">
 								<div data-wow-delay="0.3s" class="portfolio-grid masonry-grid-post wow fadeIn">
-									<div class="portfolio-masonry-item masonry-item text-center col-lg-4 col-md-4 col-sm-6 col-xs-12">
-										<a href="">
-											<div class="grid-image-wrapper">
-												<div class="grid-overlay" data-color="rgba(239, 190, 67, 0.8)"></div>
-												<div class="grid-thumbnail">
-													<img src="images/home/client-brightstar.png" alt="" />
-												</div>
-												<div class="grid-content-wrapper">
-													<div class="grid-content-inner">
-														<div class="grid-content">
-															<h3 class="os-font white"><img class="client-logo" src="images/home/client-brightstar-logo.svg" /></h3>
-															<div class="liner"></div>
-															<div class="grid-cate white">Brightstar</div>
-														</div>
+									<div class="portfolio-masonry-item masonry-item text-center col-lg-4 col-md-4 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+										<div class="grid-image-wrapper">
+											<div class="grid-overlay" data-color="rgba(0, 137, 196, 0.8)"></div>
+											<div class="grid-thumbnail">
+												<img src="images/home/client-bestbuy.jpg" alt="" />
+											</div>
+											<div class="grid-content-wrapper">
+												<div class="grid-content-inner">
+													<div class="grid-content">
+														<h3 class="os-font white">Best Buy</h3>
 													</div>
 												</div>
 											</div>
-										</a>
+										</div>
 									</div>
-									<div class="portfolio-masonry-item masonry-item text-center col-lg-4 col-md-4 col-sm-6 col-xs-12">
-										<a href="">
-											<div class="grid-image-wrapper">
-												<div class="grid-overlay" data-color="rgba(43, 188, 174, 0.8)"></div>
-												<div class="grid-thumbnail">
-													<img src="images/home/client-fitbit.png" alt="" />
-												</div>
-												<div class="grid-content-wrapper">
-													<div class="grid-content-inner">
-														<div class="grid-content">
-															<h3 class="os-font white"><img class="client-logo" src="images/home/client-fitbit-logo.svg" /></h3>
-															<!--
-															<div class="liner"></div>
-															<div class="grid-cate white">Fitbit</div>
-															-->
-														</div>
+									<div class="portfolio-masonry-item masonry-item text-center col-lg-4 col-md-4 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+										<div class="grid-image-wrapper">
+											<div class="grid-overlay" data-color="rgba(0, 137, 196, 0.8)"></div>
+											<div class="grid-thumbnail">
+												<img src="images/home/client-brightstar.jpg" alt="" />
+											</div>
+											<div class="grid-content-wrapper">
+												<div class="grid-content-inner">
+													<div class="grid-content">
+														<h3 class="os-font white">Brightstar</h3>
 													</div>
 												</div>
 											</div>
-										</a>
+										</div>
 									</div>
-									<div class="portfolio-masonry-item masonry-item text-center col-lg-4 col-md-4 col-sm-6 col-xs-12">
-										<a href="">
+									<div class="portfolio-masonry-item masonry-item text-center col-lg-4 col-md-4 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
 											<div class="grid-image-wrapper">
-												<div class="grid-overlay" data-color="rgba(95, 26, 44, 0.8)"></div>
+												<div class="grid-overlay" data-color="rgba(0, 137, 196, 0.8)"></div>
 												<div class="grid-thumbnail">
-													<img src="images/home/client-qualcomm.png" alt="" />
+													<img src="images/home/client-costco.jpg" alt="" />
 												</div>
 												<div class="grid-content-wrapper">
 													<div class="grid-content-inner">
 														<div class="grid-content">
-															<!--
-															<h3 class="os-font white"><img class="client-logo" src="images/home/client-qualcomm-logo.svg" /></h3>
-															<div class="liner"></div>
-															<div class="grid-cate white">Qualcomm</div>
-															-->
-															<p class="grid-desc white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at turpis nec lectus semper venenatis interdum id eros. Aenean vitae.</p>
+															<h3 class="os-font white">Costco</h3>
 														</div>
 													</div>
 												</div>
 											</div>
-										</a>
+										</div>
+									<div class="portfolio-masonry-item masonry-item text-center col-lg-4 col-md-4 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+										<div class="grid-image-wrapper">
+											<div class="grid-overlay" data-color="rgba(0, 137, 196, 0.8)"></div>
+											<div class="grid-thumbnail">
+												<img src="images/home/client-fitbit.jpg" alt="" />
+											</div>
+											<div class="grid-content-wrapper">
+												<div class="grid-content-inner">
+													<div class="grid-content">
+														<h3 class="os-font white">Fitbit</h3>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="portfolio-masonry-item masonry-item text-center col-lg-4 col-md-4 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+										<div class="grid-image-wrapper">
+											<div class="grid-overlay" data-color="rgba(0, 137, 196, 0.8)"></div>
+											<div class="grid-thumbnail">
+												<img src="images/home/client-irobot.jpg" alt="" />
+											</div>
+											<div class="grid-content-wrapper">
+												<div class="grid-content-inner">
+													<div class="grid-content">
+														<h3 class="os-font white">iRobot</h3>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="portfolio-masonry-item masonry-item text-center col-lg-4 col-md-4 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+										<div class="grid-image-wrapper">
+											<div class="grid-overlay" data-color="rgba(0, 137, 196, 0.8)"></div>
+											<div class="grid-thumbnail">
+												<img src="images/home/client-qualcomm.jpg" alt="" />
+											</div>
+											<div class="grid-content-wrapper">
+												<div class="grid-content-inner">
+													<div class="grid-content">
+														<h3 class="os-font white">Qualcomm</h3>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="portfolio-masonry-item masonry-item text-center col-lg-4 col-md-4 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+										<div class="grid-image-wrapper">
+											<div class="grid-overlay" data-color="rgba(0, 137, 196, 0.8)"></div>
+											<div class="grid-thumbnail">
+												<img src="images/home/client-sony.jpg" alt="" />
+											</div>
+											<div class="grid-content-wrapper">
+												<div class="grid-content-inner">
+													<div class="grid-content">
+														<h3 class="os-font white">Sony</h3>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="portfolio-masonry-item masonry-item text-center col-lg-4 col-md-4 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+										<div class="grid-image-wrapper">
+											<div class="grid-overlay" data-color="rgba(0, 137, 196, 0.8)"></div>
+											<div class="grid-thumbnail">
+												<img src="images/home/client-taylor.jpg" alt="" />
+											</div>
+											<div class="grid-content-wrapper">
+												<div class="grid-content-inner">
+													<div class="grid-content">
+														<h3 class="os-font white">Taylor</h3>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="portfolio-masonry-item masonry-item text-center col-lg-4 col-md-4 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+										<div class="grid-image-wrapper">
+											<div class="grid-overlay" data-color="rgba(0, 137, 196, 0.8)"></div>
+											<div class="grid-thumbnail">
+												<img src="images/home/client-lgha.jpg" alt="" />
+											</div>
+											<div class="grid-content-wrapper">
+												<div class="grid-content-inner">
+													<div class="grid-content">
+														<h3 class="os-font white">Webroot</h3>
+													</div>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
+								<!--
+									<div class="portfolio-masonry-item masonry-item text-center col-lg-4 col-md-4 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+										<div class="grid-image-wrapper">
+											<div class="grid-overlay" data-color="rgba(0, 137, 196, 0.8)"></div>
+											<div class="grid-thumbnail">
+												<img src="images/home/client-lgha.jpg" alt="" />
+											</div>
+											<div class="grid-content-wrapper">
+												<div class="grid-content-inner">
+													<div class="grid-content">
+														<h3 class="os-font white">LG (Home Appliances)</h3>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="portfolio-masonry-item masonry-item text-center col-lg-4 col-md-4 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+										<div class="grid-image-wrapper">
+											<div class="grid-overlay" data-color="rgba(0, 137, 196, 0.8)"></div>
+											<div class="grid-thumbnail">
+												<img src="images/home/client-lgha.jpg" alt="" />
+											</div>
+											<div class="grid-content-wrapper">
+												<div class="grid-content-inner">
+													<div class="grid-content">
+														<h3 class="os-font white">LG (Home Entertainment)</h3>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="portfolio-masonry-item masonry-item text-center col-lg-4 col-md-4 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+										<div class="grid-image-wrapper">
+											<div class="grid-overlay" data-color="rgba(0, 137, 196, 0.8)"></div>
+											<div class="grid-thumbnail">
+												<img src="images/home/client-lgmobile.jpg" alt="" />
+											</div>
+											<div class="grid-content-wrapper">
+												<div class="grid-content-inner">
+													<div class="grid-content">
+														<h3 class="os-font white">LG (Mobile)</h3>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								-->
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="section border-bottom pt-7 pb-4">
+				<div class="section bg-blue border-bottom pt-7 pb-4">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-10 col-md-offset-1">
 								<div data-wow-delay="0.3s" class="text-center mb-5 wow fadeInUp">
-									<h2 class="fw-bolder os-font dark-color section-title mb-1">HOW WE CREATE PURCHASE PASSION</h2>
-									<p>
-										20+ Year Track Record Inspiring Purchase Passion through Strategic Retail Marketing Solutions.
+									<h2 class="fw-bolder os-font white section-title mb-1">HOW WE CREATE PURCHASE PASSION</h2>
+									<p class="white">
+										20+ year track record Inspiring Purchase Passion through a comprehensive suite of strategic marketing solutions.
 									</p>
 								</div>
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-sm-3">
-								<div data-wow-delay="0.3s" class="service-item mb-5 text-center wow fadeIn">
+							<div class="col-sm-4">
+								<div data-wow-delay="0.5s" class="service-item white mb-5 text-center wow fadeIn">
 									<div class="service-icon">
-										<i class="mdi-store-24-hour color"></i>
+										<i class="mdi mdi-account-multiple-plus"></i>
 									</div>
 									<div class="service-content text-center">
 										<p>
-											Deliver complete Retail Brand Management.
+											Engage influencers to create awareness and advocacy
 										</p> 
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-3">
-								<div data-wow-delay="0.4s" class="service-item mb-5 text-center wow fadeIn">
+							<div class="col-sm-4">
+								<div data-wow-delay="0.5s" class="service-item white mb-5 text-center wow fadeIn">
 									<div class="service-icon">
-										<i class="fa fa-database color"></i>
+										<i class="mdi mdi-share-variant"></i>
 									</div>
 									<div class="service-content text-center">
 										<p>
-											Capture real-time data and in-store insights.
+											Social listening and influencing
 										</p> 
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-3">
-								<div data-wow-delay="0.5s" class="service-item mb-5 text-center wow fadeIn">
+							<div class="col-sm-4">
+								<div data-wow-delay="0.6s" class="service-item white mb-5 text-center wow fadeIn">
 									<div class="service-icon">
-										<i class="mdi-account-multiple-plus color"></i>
+										<i class="mdi mdi-amazon"></i>
 									</div>
 									<div class="service-content text-center">
 										<p>
-											Engage influencers to create awareness and advocacy; deliver learning & incentives.
+											Amazon consulting: search optimization, sales tracking, content development
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div data-wow-delay="0.4s" class="service-item white mb-5 text-center wow fadeIn">
+									<div class="service-icon">
+										<i class="fas fa-database"></i>
+									</div>
+									<div class="service-content text-center">
+										<p>
+											Capture real-time data and in-store insights
 										</p> 
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-3">
-								<div data-wow-delay="0.6s" class="service-item mb-5 text-center wow fadeIn">
+							<div class="col-sm-4">
+								<div data-wow-delay="0.6s" class="service-item white mb-5 text-center wow fadeIn">
 									<div class="service-icon">
-										<i class="mdi-qrcode color"></i>
+										<i class="mdi mdi-qrcode"></i>
 									</div>
 									<div class="service-content text-center">
 										<p>
-											Audit retail execution & compliance; check pricing, inventory, OSA, displays, plan-o-gram, and field teams.
+											Audit & compliance management: pricing, inventory, performance and display find & fix
 										</p> 
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-3">
-								<div data-wow-delay="0.3s" class="service-item mb-5 text-center wow fadeIn">
+							<div class="col-sm-4">
+								<div data-wow-delay="0.3s" class="service-item white mb-5 text-center wow fadeIn">
 									<div class="service-icon">
-										<i class="fa fa-graduation-cap color"></i>
+										<i class="mdi mdi-store-24-hour"></i>
 									</div>
 									<div class="service-content text-center">
 										<p>
-											Educate & incentivize internal & third-party staff.
-										</p> 
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div data-wow-delay="0.4s" class="service-item mb-5 text-center wow fadeIn">
-									<div class="service-icon">
-										<i class="mdi-magnify-plus color"></i>
-									</div>
-									<div class="service-content text-center">
-										<p>
-											Conduct market research.
-										</p> 
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div data-wow-delay="0.5s" class="service-item mb-5 text-center wow fadeIn">
-									<div class="service-icon">
-										<i class="mdi-share-variant color"></i>
-									</div>
-									<div class="service-content text-center">
-										<p>
-											Social listening and influencing.
-										</p> 
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div data-wow-delay="0.6s" class="service-item mb-5 text-center wow fadeIn">
-									<div class="service-icon">
-										<i class="mdi-amazon color"></i>
-									</div>
-									<div class="service-content text-center">
-										<p>
-											Amazon consulting: search optimization, sales tracking, content development.
+											Local & national in-store retail brand management
 										</p> 
 									</div>
 								</div>
@@ -400,66 +418,7 @@
 					</div>
 				</div>
 			</div>
-			<footer class="footer-wrap section">
-				<div class="footer-top">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-4 col-sm-12">
-								<div class="widget">
-									<p>
-										<a class="contact-us btn btn-primary" href="mailto:contact@creativechannel.com">Contact Us</a>
-									</p>
-								</div>
-							</div>
-							<div class="address col-md-4 col-sm-12">
-								<div class="widget">
-									<p>
-										Creative Channel Services
-										<br/>
-										12777 W. Jefferson Blvd
-										<br/>
-										Los Angeles, CA 90066
-										<br/>
-										(310) 482-6500
-									</p>
-								</div>
-							</div>
-							<div class="social-media-links col-md-4 col-sm-6">
-								<div class="widget">
-									<p>
-										<ul>
-											<li><a href="https://www.facebook.com/pages/Creative-Channel-Services/317871208109" target="_blank"><i class="mdi-facebook-box icon-title"></i></a></li>
-											<li><a href="https://twitter.com/Cr8tvChnlSrvcs" target="_blank"><i class="mdi-twitter-box icon-title"></i></a></li>
-											<li><a href="https://www.linkedin.com/company/21838?trk=vsrp_companies_res_name&trkInfo=VSRPsearchId%3A223711121449785926984%2CVSRPtargetId%3A21838%2CVSRPcmpt%3Aprimary" target="_blank"><i class="mdi-linkedin icon-title"></i></a></li>
-										</ul>
-									</p>
-									<p>
-										An Omnicom Group Company
-										<br/>
-										Copyright © 2018 Creative Channel Services LLC.
-										<br/>
-										All rights reserved.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="footer-bottom">
-					<div class="container">
-						<div class="row">
-							<!--
-							<div class="col-sm-6">
-								© Copyright 2016 TK-Themes, Inc. All rights reserved
-							</div>
-							<div class="col-sm-6 text-right">
-								Proudly developed by <a href="//themeforest.net/user/tk-themes/portfolio"><strong>TK-Themes</strong></a>
-							</div>
-							-->
-						</div>
-					</div>
-				</div>
-			</footer>
+			<footer class="footer-wrap section html-loader" file="footer.html"></footer>
 		</div>
 		<div class="go-to-top">
 			<div class="arrows">
@@ -474,26 +433,22 @@
 		<script type="text/javascript" src="js/jquery.singlePageNav.js"></script>
 		<script type="text/javascript" src="js/modernizr-2.7.1.min.js"></script>
 		<script type="text/javascript" src="js/classie.js"></script>
-		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
 		<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
 		<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
 		<script type="text/javascript" src="js/jquery.isotope.init.js"></script>
-		<script type="text/javascript" src="js/jquery.countTo.js"></script>
 		<script type="text/javascript" src="js/off-cavnas.js"></script>
-		<script type='text/javascript' src='js/waypoints.min.js'></script>
 		<script type='text/javascript' src='js/wow.min.js'></script>
 		<script type="text/javascript" src="js/functions.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/custom-ccs.js"></script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-239572-3"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
 
-		<script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
-		<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
-		<script type="text/javascript" src="js/extensions/revolution.extension.video.min.js"></script>
-		<script type="text/javascript" src="js/extensions/revolution.extension.slideanims.min.js"></script>
-		<script type="text/javascript" src="js/extensions/revolution.extension.actions.min.js"></script>
-		<script type="text/javascript" src="js/extensions/revolution.extension.layeranimation.min.js"></script>
-		<script type="text/javascript" src="js/extensions/revolution.extension.kenburn.min.js"></script>
-		<script type="text/javascript" src="js/extensions/revolution.extension.navigation.min.js"></script>
-		<script type="text/javascript" src="js/extensions/revolution.extension.migration.min.js"></script>
-		<script type="text/javascript" src="js/extensions/revolution.extension.parallax.min.js"></script>
+			gtag('config', 'UA-239572-3');
+		</script>
 	</body>
 </html>
